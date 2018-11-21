@@ -1,0 +1,123 @@
+* {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ html {
+     background: #fff;
+}
+body {
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+ .login-form-wrap {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     margin: auto auto;
+     padding: 50px 30px 0 30px;
+     text-align: center;
+}
+
+
+
+
+
+ .login-form-wrap:before {
+     display: block;
+     content: '';
+     width: 58px;
+     height: 19px;
+     top: 10px;
+     left: 10px;
+     position: absolute;
+}
+    .login-form-wrap > h1 {
+        margin: 0 0 50px 0;
+        padding: 0;
+        font-size: 26px;
+        color: #6E6E6E;
+    }
+ .login-form-wrap > h5 {
+     margin-top: 35px;
+}
+    .login-form-wrap > h5 > a {
+        font-size: 14px;
+        color: #6E6E6E;
+        text-decoration: none;
+        font-weight: 700;
+    }
+ .login-form input[type="text"], .login-form input[type="number"], .login-form input[type="password"] {
+     margin: 10;
+     display: block;
+     width: 345px;
+     border: 1px solid #3974b2;
+     outline: none;
+     padding: 12px 20px;
+     color: #afafaf;
+     font-weight: 400;
+     font-family: 'Lato', sans-serif;
+     cursor: pointer;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     border-radius: 2px;
+}
+ .login-form input[type="text"], .login-form input[type="number"], .login-form input[type="password"] {
+     color: black;
+}
+ .login-form input[type="submit"] {
+     font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     background: #ffffff;
+     display: block;
+     margin: 40px auto 0 auto;
+     width: 250px;
+     border: none;
+     border-radius: 2px;
+     padding: 12px;
+     font-size: 17px;
+     color: #149BA3;
+     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+     font-weight: 700;
+     cursor:pointer;
+}
+
+
+div#portal-login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    background-color: #e5e5e5;
+    -webkit-transition: border-color 0.5s linear 0s;
+    transition: border-color 0.5s linear 0s;
+    transition-property: border-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+ .login-form input[type="submit"]:hover {
+     background: #ffffff;
+}
+ .login-form input[type="submit"]:active {
+     background: #C9C9C9;
+}
+ .disable-selection {
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+h2 {
+     color: #6E6E6E;
+     padding-bottom: 20px;
+}
